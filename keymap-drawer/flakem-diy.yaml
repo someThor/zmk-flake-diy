@@ -1,0 +1,209 @@
+layout: {zmk_keyboard: flakem_diy}
+layers:
+  default:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - Å
+  - ESC
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - Ø
+  - Æ
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - { t: ",", s: ";" }
+  - { t: ".", s: ":" }
+  - { t: "-", s: "_" }
+  - { t: $$mdi:keyboard-return$$, h: $$mdi:apple-keyboard-shift$$ }
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:arrow-down-box$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-up-box$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  lower:
+  - { t: "|", s: "§" }
+  - { t: "1", s: "!" }
+  - { t: "2", s: '"' }
+  - { t: "3", s: "#" }
+  - { t: "4", s: "¤" }
+  - { t: "5", s: "%" }
+  - { t: "6", s: "&" }
+  - { t: "7", s: "/" }
+  - { t: "8", s: "(" }
+  - { t: "9", s: ")" }
+  - { t: "0", s: "=" }
+  - F12
+  - {t: ▽, type: trans}
+  - Ctl+A
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - "["
+  - "]"
+  - "{"
+  - "}"
+  - { t: "+", s: "?" }
+  - { t: "=", s: "`" }
+  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - {t: ▽, type: trans}
+  - "<"
+  - ">"
+  - { t: "¨", s: "^" }
+  - "~"
+  - { t: "'", s: "*" }
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - { t: $$mdi:arrow-down-box$$, type: held }
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - "&mkp LCLK"
+  - UP
+  - "&mkp RCLK"
+  - {t: ▽, type: trans}
+  - PG UP
+  - {t: ▽, type: trans}
+  - $$mdi:arrow-up$$
+  - {t: ▽, type: trans}
+  - DELETE
+  - $$mdi:backspace-outline$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - CLCK
+  - PG DN
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - ""
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - {t: ▽, type: trans}
+  - ''
+  - HOME
+  - ''
+  - END
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - { t: $$mdi:arrow-up-box$$, type: held }
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - EP TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - { t: $$mdi:arrow-down-box$$, type: held }
+  - ''
+  - ''
+  - { t: $$mdi:arrow-up-box$$, type: held }
+  - ''
+  - ''
+  - ''
+combos:
+- p: [6, 7]
+  k: "("
+- p: [7, 8]
+  k: ")"
+- p: [18, 19]
+  k: "{"
+- p: [19, 20]
+  k: "}"
+- p: [30, 31]
+  k: "["
+- p: [31, 32]
+  k: "]"
+- p: [24, 25]
+  k: "<"
+- p: [25, 26]
+  k: ">"
+- p: [10, 11]
+  k: $$mdi:backspace-outline$$

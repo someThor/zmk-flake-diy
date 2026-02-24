@@ -20,8 +20,8 @@
 ---
 include:
   - board: nice_nano@2.0.0
-    shield: flakem_diy
+    shield: flakem_diy_left
   - board: nice_nano@2.0.0
-    shield: nice_nano_v2
+    shield: flakem_diy_right
   - board: nice_nano@2.0.0
     shield: settings_reset

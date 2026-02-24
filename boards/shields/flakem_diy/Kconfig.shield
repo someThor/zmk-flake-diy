@@ -1,0 +1,5 @@
+config SHIELD_FLAKEM_DIY_LEFT
+    def_bool $(shields_list_contains,flakem_diy_left)
+
+config SHIELD_FLAKEM_DIY_RIGHT
+    def_bool $(shields_list_contains,flakem_diy_right)

@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "flake.lock": "json",
+    "*.keymap": "dts",
+    "*.overlay": "dts"
+  }
+}

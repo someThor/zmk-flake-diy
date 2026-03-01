@@ -120,7 +120,7 @@
 
             bindings = <
 &trans  &trans      &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans                      &kp PG_UP  &trans    &kp UP    &trans     &kp DELETE   &kp BACKSPACE
-&trans  &trans      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp CLCK                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &trans
+&trans  &trans      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp CAPS                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &trans
 &trans  &kp K_UNDO  &kp K_CUT       &kp K_COPY      &kp K_PASTE      &trans                      &none      &kp HOME  &none     &kp END    &none   &trans
                     &trans          &trans          &trans           &trans    &trans    &trans  &trans     &trans    &trans    &trans
             >;

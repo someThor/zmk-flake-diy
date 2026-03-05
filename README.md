@@ -2,10 +2,11 @@
 # FlakeM DIY
 ![alt text](keymap-drawer/flakem-diy.svg)
 
-## Wiring
+## Wiring - Pro Micro pins
 Rows from top to bottom, cols from left to right
+
 ### Rows GPIO
-21, 20, 19, 18, 15
+21, 20, 19, 18
 
 ### Left Cols GPIO
 2, 7, 6, 5, 4, 3

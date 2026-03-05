@@ -29,17 +29,17 @@ draw_config:
     rx: 4.0
     ry: 4.0
   svg_extra_style: |-
-    .key.keypos-53 .key.tap.glyph,
-    .key.keypos-56 .key.tap.glyph { scale: 2; }
+    .key.keypos-39 .key.tap.glyph,
+    .key.keypos-42 .key.tap.glyph { scale: 2; }
 
-    .keypos-53 .key.tap.glyph { fill: #ed8796; }
-    .keypos-56 .key.tap.glyph { fill: #8aadf4; }
+    .keypos-39 .key.tap.glyph { fill: #ed8796; }
+    .keypos-42 .key.tap.glyph { fill: #8aadf4; }
 
-    .key.keypos-53 .key.held { fill: #76434b; }
-    .keypos-53.held .key.tap.glyph { fill: #ed8796; }
+    .key.keypos-39 .key.held { fill: #76434b; }
+    .keypos-39.held .key.tap.glyph { fill: #ed8796; }
 
-    .keypos-56 .key.held { fill: #45567a; }
-    .keypos-56.held .key.tap.glyph { fill: #8aadf4; }
+    .keypos-42 .key.held { fill: #45567a; }
+    .keypos-42.held .key.tap.glyph { fill: #8aadf4; }
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
   style_layer_activators: true

@@ -177,17 +177,17 @@ text.label, text.footer { stroke: black; }
 text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
-.key.keypos-53 .key.tap.glyph,
-.key.keypos-56 .key.tap.glyph { scale: 2; }
+.key.keypos-39 .key.tap.glyph,
+.key.keypos-42 .key.tap.glyph { scale: 2; }
 
-.keypos-53 .key.tap.glyph { fill: #ed8796; }
-.keypos-56 .key.tap.glyph { fill: #8aadf4; }
+.keypos-39 .key.tap.glyph { fill: #ed8796; }
+.keypos-42 .key.tap.glyph { fill: #8aadf4; }
 
-.key.keypos-53 .key.held { fill: #76434b; }
-.keypos-53.held .key.tap.glyph { fill: #ed8796; }
+.key.keypos-39 .key.held { fill: #76434b; }
+.keypos-39.held .key.tap.glyph { fill: #ed8796; }
 
-.keypos-56 .key.held { fill: #45567a; }
-.keypos-56.held .key.tap.glyph { fill: #8aadf4; }</style>
+.keypos-42 .key.held { fill: #45567a; }
+.keypos-42.held .key.tap.glyph { fill: #8aadf4; }</style>
 <g transform="translate(30, 0)" class="layer-default">
 <text x="0" y="28" class="label" id="default">default:</text>
 <g transform="translate(0, 56)">
@@ -555,9 +555,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(314, 218) rotate(15.0)" class="key trans keypos-39">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(314, 218) rotate(15.0)" class="key held keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<use href="#mdi:arrow-down-box" xlink:href="#mdi:arrow-down-box" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph mdi:arrow-down-box"/>
 </g>
 <g transform="translate(374, 244) rotate(30.0)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -567,9 +567,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(582, 218) rotate(-15.0)" class="key held keypos-42">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<use href="#mdi:arrow-down-box" xlink:href="#mdi:arrow-down-box" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph mdi:arrow-down-box"/>
+<g transform="translate(582, 218) rotate(-15.0)" class="key trans keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(644, 210)" class="key trans keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -748,9 +748,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(314, 218) rotate(15.0)" class="key held keypos-39">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<use href="#mdi:arrow-up-box" xlink:href="#mdi:arrow-up-box" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph mdi:arrow-up-box"/>
+<g transform="translate(314, 218) rotate(15.0)" class="key trans keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(374, 244) rotate(30.0)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -760,9 +760,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(582, 218) rotate(-15.0)" class="key trans keypos-42">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(582, 218) rotate(-15.0)" class="key held keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<use href="#mdi:arrow-up-box" xlink:href="#mdi:arrow-up-box" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph mdi:arrow-up-box"/>
 </g>
 <g transform="translate(644, 210)" class="key trans keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

@@ -12,7 +12,7 @@ Rows from top to bottom, cols from left to right
 2, 7, 6, 5, 4, 3
 
 ### Right Cols GPIO
-3, 4, 5, 6, 7, 2
+2, 7, 6, 5, 4, 3
 
 
 ## Resources

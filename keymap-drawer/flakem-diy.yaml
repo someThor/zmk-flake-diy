@@ -96,10 +96,10 @@ layers:
   - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - "&mkp LCLK"
-  - UP
-  - "&mkp RCLK"
+  - "$$mdi:chevron-double-up$$"
+  - "$$mdi:mouse-left-click$$"
+  - "$$mdi:arrow-up-circle$$"
+  - "$$mdi:mouse-right-click$$"
   - {t: ▽, type: trans}
   - PG UP
   - {t: ▽, type: trans}
@@ -108,10 +108,10 @@ layers:
   - DELETE
   - $$mdi:backspace-outline$$
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
+  - "$$mdi:chevron-double-down$$"
+  - "$$mdi:arrow-left-circle$$"
+  - "$$mdi:arrow-down-circle$$"
+  - "$$mdi:arrow-right-circle$$"
   - CLCK
   - PG DN
   - $$mdi:arrow-left$$

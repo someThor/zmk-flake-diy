@@ -66,11 +66,14 @@
 <svg id="mdi:mouse-right-click">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse-right-click" viewBox="0 0 24 24"><path d="M13 9V1.07C13.7 1.16 14.37 1.33 15 1.59C17.33 2.53 19.11 4.53 19.75 7C19.91 7.64 20 8.31 20 9H13M17.66 7C17.18 5.65 16.23 4.5 15 3.81V7H17.66M11 9V1.07C7.06 1.56 4 4.92 4 9H11M6.34 20.66C4.84 19.16 4 17.12 4 15V11H20V15C20 17.12 19.16 19.16 17.66 20.66C16.16 22.16 14.12 23 12 23C9.88 23 7.84 22.16 6.34 20.66Z" /></svg>
 </svg>
+<svg id="mdi:play-pause">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
+</svg>
+<svg id="mdi:usb-flash-drive">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-usb-flash-drive" viewBox="0 0 24 24"><path d="M8 15C8.55 15 9 15.45 9 16C9 16.55 8.55 17 8 17C7.45 17 7 16.55 7 16C7 15.45 7.45 15 8 15M15.07 4.69L16.5 6.1L15.07 7.5L13.66 6.1L15.07 4.69M17.9 7.5L19.31 8.93L17.9 10.34L16.5 8.93L17.9 7.5M8 13C6.34 13 5 14.34 5 16C5 17.66 6.34 19 8 19C9.66 19 11 17.66 11 16C11 14.34 9.66 13 8 13M9.77 4.33L10.5 5.08L14.29 1.29C14.47 1.11 14.72 1 15 1C15.28 1 15.53 1.11 15.71 1.29L22.78 8.36L22.78 8.37C22.92 8.54 23 8.76 23 9C23 9.3 22.87 9.57 22.66 9.76L22.66 9.76L18.93 13.5L19.67 14.23L12.95 20.95C11.68 22.22 9.93 23 8 23C4.13 23 1 19.87 1 16C1 14.07 1.78 12.32 3.05 11.05L9.77 4.33M20.59 9L15 3.41L11.93 6.5L17.5 12.08L20.59 9Z" /></svg>
+</svg>
 <svg id="mdi:volume-minus">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-minus" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M14,11H22V13H14V11Z" /></svg>
-</svg>
-<svg id="mdi:volume-mute">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-mute" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M16.59,12L14,9.41L15.41,8L18,10.59L20.59,8L22,9.41L19.41,12L22,14.59L20.59,16L18,13.41L15.41,16L14,14.59L16.59,12Z" /></svg>
 </svg>
 <svg id="mdi:volume-plus">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-plus" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M14,11H17V8H19V11H22V13H19V16H17V13H14V11Z" /></svg>
@@ -476,9 +479,11 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F12</text>
 </g>
-<g transform="translate(28, 126)" class="key trans keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(28, 126)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:usb-flash-drive" xlink:href="#mdi:usb-flash-drive" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:usb-flash-drive"/>
+<text x="0" y="24" class="key hold">Left</text>
+<text x="0" y="-24" class="key shifted">Flash</text>
 </g>
 <g transform="translate(84, 126)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -716,9 +721,11 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(812, 126)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g transform="translate(868, 126)" class="key trans keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(868, 126)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:usb-flash-drive" xlink:href="#mdi:usb-flash-drive" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:usb-flash-drive"/>
+<text x="0" y="24" class="key hold">Right</text>
+<text x="0" y="-24" class="key shifted">Flash</text>
 </g>
 <g transform="translate(28, 182)" class="key trans keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -947,7 +954,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(868, 182)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:volume-mute" xlink:href="#mdi:volume-mute" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:volume-mute"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:play-pause"/>
 </g>
 <g transform="translate(140, 210)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

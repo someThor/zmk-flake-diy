@@ -97,14 +97,14 @@
             display-name = "lower";
             // ------------------------------------------------------------------------------------------
             // |   |  |  1  |  2  |  3  |  4  |  5  |               |  6  |  7  |  8  |  9  |  0  | F12 |
-            // |      |     |     |     |     |     |               |  ^  |  &  |  *  |  (  |  )  |  |  |
+            // |BLDR_L|     |     |     |     |     |               |  ^  |  &  |  *  |  (  |  )  |  |  |
             // |      |     |     |     |     |     |               |  [  |  ]  |  ;  |  :  |  \  |     |
             //              |     |     |     |     |     |   |     |     |     |     |     |
 
             bindings = <
-&kp GRAVE  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                    &kp N6           &kp N7               &kp N8             &kp N9                 &kp N0           &kp F12
-&trans     &kp LC(A)  &trans     &trans     &trans     &trans                    &kp RA(N8)       &kp RA(N9)           &kp RA(N7)         &kp RA(N0)             &kp MINUS        &kp EQUAL
-&trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp NON_US_BSLH  &kp RS(NON_US_BSLH)  &kp RIGHT_BRACKET  &kp RA(RIGHT_BRACKET)  &kp NON_US_HASH  &trans
+&kp GRAVE   &kp N1    &kp N2     &kp N3     &kp N4     &kp N5                    &kp N6           &kp N7               &kp N8             &kp N9                 &kp N0           &kp F12
+&bootloader &kp LC(A) &trans     &trans     &trans     &trans                    &kp RA(N8)       &kp RA(N9)           &kp RA(N7)         &kp RA(N0)             &kp MINUS        &kp EQUAL
+&trans      &kp LC(Z) &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp NON_US_BSLH  &kp RS(NON_US_BSLH)  &kp RIGHT_BRACKET  &kp RA(RIGHT_BRACKET)  &kp NON_US_HASH  &trans
                       &trans     &trans     &trans     &trans  &trans    &trans  &trans           &trans               &trans             &trans
             >;
         };
@@ -113,14 +113,14 @@
         raise_layer {
             display-name = "raise";
             // ------------------------------------------------------------------------------------------
-            // |      | SCRL_UP | LCLK|  ^  | RCLK|     |               | PGUP|     |  ^  |     | DEL |BKSPC|
-            // |      | SCRL_DN |  <- |  v  |  -> | CAPS|               | PGDN|  J  |  v  |  -> |     |     |
-            // |      |         |     |     |     |     |               |     | HOME|     | END |     |     |
+            // |      | SCRL_UP | LCLK|  ^  | RCLK|     |               | PGUP|     |  ^  |     | DEL |BKSPC |
+            // |      | SCRL_DN |  <- |  v  |  -> | CAPS|               | PGDN|  J  |  v  |  -> |     |BLDR_R|
+            // |      |         |     |     |     |     |               |     | HOME|     | END |     |      |
             //                  |     |     |     |     |     |   |     |     |     |     |     |
 
             bindings = <
 &none   &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &none                      &kp PG_UP  &trans    &kp UP    &trans     &kp DELETE   &kp BACKSPACE
-&none   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp CAPS                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &trans
+&none   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp CAPS                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &bootloader
 &trans  &kp K_UNDO      &kp K_CUT       &kp K_COPY      &kp K_PASTE      &trans                      &none      &kp HOME  &none     &kp END    &none   &trans
                         &trans          &trans          &trans           &trans    &trans    &trans  &trans     &trans    &trans    &trans
             >;
